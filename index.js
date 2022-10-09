@@ -99,7 +99,7 @@ app.listen(port, () => {
   models.sequelize
     .sync()
     .then(() => {
-      console.log("🎃DB연결성공");
+      console.log("🐰DB연결성공");
     })
     .catch((err) => {
       console.error(err);
